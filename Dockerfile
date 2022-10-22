@@ -11,5 +11,5 @@ COPY src ./src
 
 RUN npm run build
 
-ENTRYPOINT ["npm", "start"]
-EXPOSE 8082
+EXPOSE 8080
+CMD ["npm", "start"]

@@ -8,7 +8,7 @@ import 'reflect-metadata';
 import router from './router';
 
 const app = new Koa()
-const port = process.env.PORT || 8082;
+const port = process.env.PORT || 8080;
 
 // middlewares
 app.use(logger())
