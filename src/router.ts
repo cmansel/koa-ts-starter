@@ -6,6 +6,7 @@ const helloWorld = (ctx: any) => {
     const text: string = 'Hello World!!!!'
 
     const typeCheck = (text: string) => text
+    // typeCheck(3)  // this fails typechecking
 
     const secondText = typeCheck(ctx.request.query.name)
 
