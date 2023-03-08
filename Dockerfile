@@ -16,7 +16,7 @@ RUN npm run build
 # Prod build, install only dependencies required for production
 FROM node:16
 WORKDIR /home/node/app
-COPY package.json ./
+COPY package*.json ./
 RUN npm install --omit=dev
 COPY --from=0 /home/node/app/build ./build
 EXPOSE 8080
