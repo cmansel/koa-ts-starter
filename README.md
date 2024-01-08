@@ -1,18 +1,18 @@
 # koa-ts-starter
-A starter setup for typescript and koa including:
+A starter setup for typescript and koa that includes:
 - `eslint`
 - `prettier`
 - `nodemon`
 - `Dockerfile` for production build
 
 ## Development
-To setup the development environment in an environment with node16, run:
+To setup the development environment, in an environment with node16 installed run:
 ```
 npm install
 npm run dev
 ```
 
-Test the example route using this curl command
+Test the example route using this curl command:
 ```
 curl http://localhost:8080/\?name\=yourname
 ```
